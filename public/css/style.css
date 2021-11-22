@@ -1,0 +1,116 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #292929;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.clip-to-circle {
+    clip-path: circle(300px at center);
+}
+
+.border-radius-50p {
+    border-radius: 50%;
+}
+
+.clip-circle {
+    clip-path: circle();
+}
+
+.relative {
+    position: relative;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.square {
+    overflow: hidden;
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+
+/* .square img {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+} */
+
+.circle {
+    border-radius: 50%;
+}
+
+.circle-bottom-left {
+    border-radius: 0 0 0 50%;
+}
+
+.circle-bottom-right {
+    border-radius: 0 50% 0 0;
+}
+
+.circle-bottom {
+    border-radius: 0 0 15% 50%;
+}
+
+.circle-bottom-top {
+    border-radius: 50% 0 0 0;
+}
+
+.circle-bottom-bottom {
+    border-radius: 0 0 50% 0;
+}
+
+.translate_50p {
+    transform: translateY(-50%);
+}
+
+.translate_40p {
+    transform: translateY(-40%) translateX(10%);
+}
+
+.translate_30p {
+    transform: translateY(-30%) translateX(10%);
+}
+
+.text-white {
+    color: white;
+}
+
+.arc_bg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.arc_bg .grey_shade_container,
+.arc_bg .grey_shade_container svg {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.arc_bg img {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    position: relative;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}

@@ -1,0 +1,109 @@
+var bg_frame = [
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 464.5 600.5" style="enable-background:new 0 0 464.5 600.5;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID1" d="M464.07,0.26v600c0,0-29.48-86.98-115.43-160.6C205.77,348.5,0.42,328.88,0.42,328.88V0.26H464.07z"/> 	</defs> 	<clipPath id="SVGID_00000132795062163273005420000016628893221006901425_"> 		<use xlink:href="#SVGID1"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000132795062163273005420000016628893221006901425_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 0 0)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 463.65 600" style="enable-background:new 0 0 463.65 600;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID2" d="M463.65,0v383.88c0,0-194.1,216.12-439.68,216.12H0V0H463.65z"/> 	</defs> 	<clipPath id="SVGID_00000140010342847127404450000013189592940263024809_"> 		<use xlink:href="#SVGID2"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000140010342847127404450000013189592940263024809_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 -0.425 -0.25)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 464.5 600.5" style="enable-background:new 0 0 464.5 600.5;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID3" d="M464.075,0.25v349.06c-172,56.81-334.54,185.62-356.55,203.45c-0.01,0.01-0.03,0.03-0.05,0.04 			c-1.31,1.32-1.97,2.02-1.97,2.02c0.19-0.29,0.38-0.59,0.57-0.88c-0.71,0.58-1.07,0.88-1.07,0.88 			c-9.54,14.42-18.9,29.56-28.04,45.43H0.425v-600H464.075z"/> 	</defs> 	<clipPath id="SVGID_00000176012751939449792150000009917991716302321536_"> 		<use xlink:href="#SVGID3"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000176012751939449792150000009917991716302321536_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 0 0)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 464.5 600.5" style="enable-background:new 0 0 464.5 600.5;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID4" d="M464.075,0.25v563.42c0,0-70.04,36.58-171.62,36.58c-83.23,0-187.63-24.56-292.03-113.92V0.25H464.075z"/> 	</defs> 	<clipPath id="SVGID_00000141442805351843691270000014221539573532143530_"> 		<use xlink:href="#SVGID4"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000141442805351843691270000014221539573532143530_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 0 0)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 464.5 600.5" style="enable-background:new 0 0 464.5 600.5;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID5" d="M464.075,0.25v600c-103.51-55.11-189.85-58.29-305.41-16.51c-33.73,12.2-61.26,16.51-83.32,16.51 			c-53.52,0-74.92-25.4-74.92-25.4V401.32c0-0.01,0-0.01,0-0.01V0.25H464.075z"/> 	</defs> 	<clipPath id="SVGID_00000013879149058597215980000015926216489838201770_"> 		<use xlink:href="#SVGID5"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000013879149058597215980000015926216489838201770_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 0 0)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 463.65 600" style="enable-background:new 0 0 463.65 600;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID6" d="M463.65,0v589.7c0,0-0.01,0-0.03,0.01c-18.99,6.47-43.91,10.29-72.07,10.29 			c-50.21,0-110.67-12.14-165.99-42.96C139.22,508.93,0,512.44,0,512.44V0H463.65z"/> 	</defs> 	<clipPath id="SVGID_00000101792288321177745090000007387859020963931562_"> 		<use xlink:href="#SVGID6"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000101792288321177745090000007387859020963931562_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 -0.425 -0.2499)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 463.65 600" style="enable-background:new 0 0 463.65 600;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID7" d="M463.65,0v362.28c-104.28-12.53-197.02,23.2-240.25,43.87C58.5,500.8,0,600,0,600V0H463.65z"/> 	</defs> 	<clipPath id="SVGID_00000178925099718269472630000018402161374100882315_"> 		<use xlink:href="#SVGID7"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000178925099718269472630000018402161374100882315_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="__GREY_SHADE_IMAGE_HERE__"  transform="matrix(0.5 0 0 0.5 -0.425 -0.25)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 464.5 600.5" style="enable-background:new 0 0 464.5 600.5;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID8" d="M464.075,0.25v554.32c0,0-78.19,45.68-178.35,45.68c-35.95,0-74.74-5.88-113.75-21.89 			c-1.69-0.66-109.84-43.16-171.55-108.35V0.25H464.075z"/> 	</defs> 	<clipPath id="SVGID_00000173148840214867177630000010863212066886813852_"> 		<use xlink:href="#SVGID8"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000173148840214867177630000010863212066886813852_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 0 0)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 463.65 600" style="enable-background:new 0 0 463.65 600;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID9" d="M463.65,0v505.35c-79.46,46.68-170.39,76.08-262.4,80.8c15.28-0.72,30.53-2.16,45.71-4.33 			C206.09,593.75,163.33,600,120.6,600c-40.18,0-80.34-5.53-118.86-17.08C0.46,582.56,0,582.03,0,580.61V0H463.65z"/> 	</defs> 	<clipPath id="SVGID_00000029766693675975672660000015484375327105267627_"> 		<use xlink:href="#SVGID9"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000029766693675975672660000015484375327105267627_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 -0.425 -0.2499)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"	 viewBox="0 0 464.5 600.5" style="enable-background:new 0 0 464.5 600.5;" xml:space="preserve"><g>	<defs>		<path id="SVGID10" d="M464.075,0.25v585.31c-0.09,0.02-0.17,0.05-0.26,0.07c-0.45,0.11-0.91,0.23-1.37,0.34			c-0.72,0.18-1.46,0.36-2.22,0.54c-0.87,0.22-1.77,0.43-2.68,0.64c-1.37,0.33-2.79,0.66-4.26,0.98c-0.19,0.05-0.39,0.09-0.59,0.13			c-0.2,0.05-0.4,0.1-0.6,0.13c-0.18,0.05-0.36,0.09-0.54,0.12c-0.65,0.15-1.32,0.3-2,0.44c-0.22,0.05-0.45,0.1-0.67,0.14			c-1.92,0.42-3.91,0.83-5.97,1.23c-0.63,0.13-1.27,0.26-1.92,0.38c-1.29,0.25-2.6,0.5-3.94,0.75c-1.66,0.31-3.37,0.62-5.11,0.92			c-1.54,0.27-3.12,0.54-4.73,0.8c-0.42,0.07-0.84,0.14-1.27,0.21c-2.34,0.38-4.74,0.75-7.2,1.11c0,0-0.01,0.01-0.02,0			c-0.918,0.135-1.859,0.266-2.793,0.399c-0.049,0.007-0.098,0.014-0.147,0.021c-0.017,0.002-0.035,0.005-0.052,0.007			c-1.349,0.19-2.715,0.377-4.097,0.561c-0.151,0.021-0.299,0.041-0.45,0.062l-0.17,0.021c-2.667,0.351-5.397,0.689-8.188,1.012			l-0.791,0.097c-0.74,0.08-1.49,0.17-2.24,0.25c-0.33,0.04-0.66,0.08-1,0.11c-0.4,0.05-0.8,0.09-1.21,0.13			c-0.13,0.02-0.27,0.03-0.4,0.04c-1.63,0.18-3.28,0.34-4.95,0.5c-0.53,0.05-1.06,0.11-1.6,0.15c-1.7,0.16-3.42,0.32-5.16,0.46			c-1.46,0.12-2.93,0.24-4.41,0.35c-0.85,0.07-1.7,0.13-2.55,0.19c0.01,0,0.03-0.01,0.04-0.01c-0.96,0.07-1.94,0.14-2.91,0.2h-0.01			c-11.65,0.76-24.06,1.21-37.17,1.21c-29.29,0-62.04-2.23-97.43-8.12c-0.99-0.17-1.98-0.33-2.96-0.51			c-0.99-0.17-2.04-0.36-3.06-0.54l-0.5-0.09l-0.36-0.06c-0.93-0.18-1.86-0.35-2.79-0.53l-0.74-0.14c-0.82-0.16-1.64-0.31-2.45-0.48			l-0.29-0.06c-0.94-0.18-1.87-0.36-2.8-0.57l-0.9-0.18c-0.81-0.17-1.61-0.34-2.41-0.51c-0.31-0.07-0.61-0.13-0.91-0.2			c-0.88-0.19-1.76-0.38-2.64-0.58l-0.27-0.06l-2.32-0.53c-0.16-0.04-0.31-0.07-0.47-0.11c-1.22-0.29-2.45-0.58-3.67-0.87h-0.01			l-1.92-0.46l-0.83-0.21h-0.01l-0.38-0.09h-0.07l-0.72-0.19l-0.31-0.08l-2.03-0.51l-0.49-0.13l-1.87-0.48l-0.63-0.17l-1.08-0.28			l-1.4-0.37l-0.58-0.15l-0.53-0.15l-0.43-0.12l-1.3-0.38l-0.57-0.16l-0.43-0.12l-0.11-0.03l-0.36-0.1h-0.01l-1.51-0.42l-0.87-0.26			l-0.6-0.17l-1.61-0.46l-0.61-0.18l-0.58-0.18l-2.43-0.72l-0.64-0.2l-2.15-0.66l-0.55-0.17l-0.4-0.12l-0.48-0.15l-1.51-0.48h-0.01			c-0.08-0.02-0.16-0.04-0.25-0.07l-0.65-0.22c-0.77-0.24-1.53-0.49-2.29-0.72l-0.22-0.07l-1.79-0.59l-1.71-0.57l-0.07-0.02			c-0.42-0.14-0.84-0.28-1.25-0.42l-0.53-0.18l-0.55-0.19l-1.12-0.38l-2.44-0.84l-1.39-0.49l-1.02-0.37l-0.75-0.26l-1.67-0.6			l-0.87-0.32l-1.55-0.57c-0.28-0.1-0.57-0.21-0.85-0.31c-1.11-0.41-2.21-0.82-3.31-1.24l-0.94-0.36l-0.94-0.36l-0.5-0.2l-1.13-0.44			l-0.37-0.13l-0.79-0.31l-0.67-0.27l-1.55-0.61l-0.66-0.26l-1.01-0.4c-0.88-0.37-1.76-0.71-2.64-1.07l-0.68-0.28			c-0.33-0.13-0.66-0.27-1-0.41c-0.76-0.31-1.53-0.63-2.28-0.95c-1.05-0.44-2.09-0.87-3.12-1.32l-0.2-0.08l-1.55-0.67l-2.9-1.26			c-1.24-0.55-2.47-1.09-3.69-1.64l-1.34-0.62c-0.68-0.3-1.36-0.61-2.03-0.92l-0.01-0.01l-0.34-0.15l-0.07-0.03l-0.62-0.29			l-0.06-0.03c-77.22-35.59-124.3-81.42-125.68-82.77V0.25H464.075z"/>	</defs>	<clipPath id="SVGID_00000011739492152494222960000007518749605648115886_">		<use xlink:href="#SVGID10"  style="overflow:visible;"/>	</clipPath>	<g style="clip-path:url(#SVGID_00000011739492152494222960000007518749605648115886_);">					<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 0 0)">		</image>	</g></g></svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 464.5 600.5" style="enable-background:new 0 0 464.5 600.5;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID11" d="M464.075,0.25v572.32c0,0-9.38,2.53-26.11,5.34c-57.03,16.33-114.31,22.34-167.76,22.34 			c-149.94,0-269.78-47.34-269.78-47.34V0.25H464.075z"/> 	</defs> 	<clipPath id="SVGID_00000046334589212997869280000005030696710029657497_"> 		<use xlink:href="#SVGID11"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000046334589212997869280000005030696710029657497_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 0 0)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 463.65 600" style="enable-background:new 0 0 463.65 600;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID12" d="M463.65,0v489.55C329.4,580.97,193.87,600,104.31,600C40.48,600,0,590.33,0,590.33V0H463.65z"/> 	</defs> 	<clipPath id="SVGID_00000111912431569486530730000005648532127182008497_"> 		<use xlink:href="#SVGID12"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000111912431569486530730000005648532127182008497_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 -0.425 -0.25)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 464.5 600.5" style="enable-background:new 0 0 464.5 600.5;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID13" d="M464.075,0.25v463.93c-78.54,97.74-171.21,121.76-234.74,124.82c-34.46,8.29-67.94,11.25-98.18,11.25 			c-75.45,0-130.73-18.42-130.73-18.42V0.25H464.075z"/> 	</defs> 	<clipPath id="SVGID_00000026131845439516419000000001050454664696207019_"> 		<use xlink:href="#SVGID13"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000026131845439516419000000001050454664696207019_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 0 0)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 463.65 600" style="enable-background:new 0 0 463.65 600;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID14" d="M463.65,0v534.19C352.06,585.16,252.77,600,174.98,600C66.62,600,0,571.21,0,571.21V0H463.65z"/> 	</defs> 	<clipPath id="SVGID_00000093162047585139567300000009136385941592439485_"> 		<use xlink:href="#SVGID14"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000093162047585139567300000009136385941592439485_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 -0.425 -0.25)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 463.65 600" style="enable-background:new 0 0 463.65 600;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID15" d="M463.65,0v588.49C416.36,596.78,372.88,600,333.86,600c-128.06,0-208.01-34.7-216.73-38.67 			C42.58,539.8,0,510.57,0,510.57V0H463.65z"/> 	</defs> 	<clipPath id="SVGID_00000062909933314881699160000017577267005275578774_"> 		<use xlink:href="#SVGID15"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000062909933314881699160000017577267005275578774_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 -0.425 -0.25)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 463.65 600" style="enable-background:new 0 0 463.65 600;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID16" d="M463.65,0v535.01c-6.58,4.57-13.19,8.85-19.85,12.87c12.77-3.19,19.85-5.63,19.85-5.63v15.61 			c-21.82,5.51-43.05,9.59-63.63,12.42C349.16,592,297.38,600,248.69,600C112.24,600,0,537.16,0,537.16V0H463.65z"/> 	</defs> 	<clipPath id="SVGID_00000106127889331216857220000007473538255736718735_"> 		<use xlink:href="#SVGID16"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000106127889331216857220000007473538255736718735_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 -0.425 -0.25)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 463.65 600" style="enable-background:new 0 0 463.65 600;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID17" d="M463.65,0v600h-46.18c-55.8,0-155.56-6.27-262.16-42.93C51.12,526.93,1.16,480.9,0.02,479.84 			c-0.01-0.01-0.01-0.02-0.02-0.02V0H463.65z"/> 	</defs> 	<clipPath id="SVGID_00000083799079635304562470000007028954717804174475_"> 		<use xlink:href="#SVGID17"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000083799079635304562470000007028954717804174475_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 -0.425 -0.25)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 463.65 600" style="enable-background:new 0 0 463.65 600;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID18" d="M463.65,0v600h-31.91c-30.19,0-79.73-3.06-140.36-18.15C132.36,548.05,4.74,432.4,0.13,428.19l-0.09-0.09 			H0.03C0.01,428.08,0,428.07,0,428.07V0H463.65z"/> 	</defs> 	<clipPath id="SVGID_00000170979488722565559670000004836110609651109562_"> 		<use xlink:href="#SVGID18"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000170979488722565559670000004836110609651109562_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 -0.425 -0.25)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 463.65 600" style="enable-background:new 0 0 463.65 600;" xml:space="preserve"> <g> 	<defs> 		<path id="SVGID19" d="M463.65,0v600c0,0-0.01-0.01-0.02-0.04c-0.88-1.4-23.99-38.14-61.22-82.18 			C331.2,441.84,197.57,350.66,0,421.2V0H463.65z"/> 	</defs> 	<clipPath id="SVGID_00000020400695513836693260000005329857407251949985_"> 		<use xlink:href="#SVGID19"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#SVGID_00000020400695513836693260000005329857407251949985_);"> 		 			<image style="overflow:visible;" width="929" height="1201" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.5 0 0 0.5 -0.425 -0.25)"> 		</image> 	</g> </g> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"	 viewBox="0 0 463.65 600" style="enable-background:new 0 0 463.65 600;" xml:space="preserve"><g>	<defs>		<path id="SVGID20" d="M463.65,0v599.92c-11.32,0.14-22.65,0.13-33.97-0.3			c-13.25-0.51-26.47-1.32-39.67-2.53c-11.44-1.05-22.84-2.41-34.22-3.98c-13.81-1.92-27.53-4.26-41.19-7.01			c-25.93-5.21-51.55-11.83-76.76-19.82c-49.39-15.66-96.63-36.2-141.49-62.15C62.2,484.49,29.94,461.71,0,436.09V0H463.65z"/>	</defs>	<clipPath id="XMLID_0">		<use xlink:href="#SVGID20"  style="overflow:visible;"/>	</clipPath>	<g style="clip-path:url(#XMLID_0);">					<image style="overflow:visible;enable-background:new    ;" width="930" height="1202" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.4995 0 0 0.4995 -0.4604 -0.2226)">		</image>	</g></g></svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 viewBox="0 0 464.5 1200.945" style="enable-background:new 0 0 464.5 1200.945;" xml:space="preserve"> <g> 	<defs> 		<path id="XMLID_20" d="M464.075,0v1155.015c0,0-78.19,45.68-178.35,45.68 			c-35.95,0-74.74-5.88-113.75-21.89c-1.69-0.66-109.84-43.16-171.55-108.35V0H464.075z"/> 	</defs> 	<clipPath id="XMLID_20_2"> 		<use xlink:href="#XMLID_20"  style="overflow:visible;"/> 	</clipPath> 	<g style="clip-path:url(#XMLID_20_2);"> 		 			<image style="overflow:visible;enable-background:new    ;" width="930" height="1202" xlink:href="_GREY_SHADE_IMAGE_HERE_"  transform="matrix(0.4995 0 0 0.9989 -0.0354 0)"> 		</image> 	</g> </g> </svg>'
+];
+// _GREY_SHADE_IMAGE_HERE_
+var square = document.querySelectorAll('.square');
+var squareIMG = document.querySelectorAll('.square img');
+var footer = document.querySelector('footer');
+var body = document.querySelector("body");
+var greyContainer = document.querySelectorAll(".grey_shade_container");
+
+function getElem(elemId) {
+    return document.getElementById(elemId);
+}
+
+function makeSquare() {
+    if (square != null) {
+        square.forEach(element => {
+            element.style.height = element.clientWidth + 'px';
+        });
+    }
+}
+
+function parentWidth(elem) {
+    if (elem != null) {
+        return elem.parentElement.clientWidth;
+    } else {
+        return 0;
+    }
+}
+
+function parentHeight(elem) {
+    if (elem != null) {
+        return elem.parentElement.clientHeight;
+    } else {
+        return 0;
+    }
+}
+
+function getHeight(elem) {
+    if (elem != null) {
+        return elem.clientHeight;
+    } else {
+        return 0;
+    }
+}
+
+
+function setHeight(src_id, target_id) {
+    getElem(target_id).style.height = document.getElementById(src_id).clientWidth + 'px'
+}
+
+function setMarginBottom(elemId) {
+    var elem = getElem(elemId);
+    if (elem != null) {
+        elem.style.marginBottom = "-" + getHeight(footer) / (1.69) + 'px';
+    }
+}
+
+function setMarginTop(height, targetMargin) {
+    var tm = getElem(targetMargin);
+    if (tm != null)
+        tm.style.marginTop = '-' + height + 'px';
+}
+
+function setGreyBackground(containerIndex, frameIndex, textureImage) {
+    greyContainer[containerIndex].innerHTML = bg_frame[frameIndex].replace("_GREY_SHADE_IMAGE_HERE_", "images/" + textureImage);
+}
+
+// GUEST WELCOME 
+function guestOnLoad() {
+    setGreyBackground(2, 20, 'grey1.jpg');
+    setGreyBackground(1, 8, 'grey12.jpg');
+    setGreyBackground(0, 19, 'grey16.jpg');
+    setHeight('headerSvg', 'placeholder1');
+    makeSquare();
+    setMarginBottom('lastSection');
+    setMarginTop(getHeight(getElem('headerArc')) / 1.7, 'mainContainer');
+    setMarginTop(getHeight(getElem('arc1')) / 1.7, 'section2');
+    setMarginTop(getHeight(getElem('arc2')) / 1.2, 'lastSection');
+}
+
+function guestOnResize() {
+    setMarginBottom('lastSection');
+    setHeight('headerSvg', 'placeholder1');
+    makeSquare();
+    setMarginTop(getHeight(getElem('headerArc')) / 1.7, 'mainContainer');
+    setMarginTop(getHeight(getElem('arc1')) / 1.7, 'section2');
+    setMarginTop(getHeight(getElem('arc2')) / 1.2, 'lastSection');
+}

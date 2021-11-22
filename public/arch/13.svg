@@ -1,0 +1,37 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 463.653 290.57" style="enable-background:new 0 0 463.653 290.57;" xml:space="preserve">
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="222.3019" x2="212.9038" y2="222.3019">
+		<stop  offset="0" style="stop-color:#A9891D"/>
+		<stop  offset="0.0422" style="stop-color:#B2881B"/>
+		<stop  offset="0.1969" style="stop-color:#CD8314"/>
+		<stop  offset="0.3529" style="stop-color:#E1800F"/>
+		<stop  offset="0.5099" style="stop-color:#ED7E0C"/>
+		<stop  offset="0.6693" style="stop-color:#F17D0B"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_1_);" d="M0,169.894c0,0,88.138,99.486,212.904,100.401c0,0-77.764,29.058-212.904-61.939V169.894z"/>
+	
+		<linearGradient id="SVGID_00000022551644710856799220000003134846748467545777_" gradientUnits="userSpaceOnUse" x1="68.2207" y1="346.7463" x2="180.6546" y2="83.9491">
+		<stop  offset="0" style="stop-color:#A9891D"/>
+		<stop  offset="0.4213" style="stop-color:#CE8314"/>
+		<stop  offset="0.7823" style="stop-color:#E87F0D"/>
+		<stop  offset="1" style="stop-color:#F17D0B"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_00000022551644710856799220000003134846748467545777_);" d="M0,208.357v29.081
+		c0,0,54.359,44.071,224.158,42.674C224.158,280.112,123.882,288.096,0,208.357z"/>
+	
+		<linearGradient id="SVGID_00000008843830877667392570000011110546489147768716_" gradientUnits="userSpaceOnUse" x1="-1.6731" y1="300.0453" x2="179.8219" y2="234.9288">
+		<stop  offset="0" style="stop-color:#A9891D"/>
+		<stop  offset="0.4213" style="stop-color:#CE8314"/>
+		<stop  offset="0.7823" style="stop-color:#E87F0D"/>
+		<stop  offset="1" style="stop-color:#F17D0B"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_00000008843830877667392570000011110546489147768716_);" d="M228.913,279.32
+		c-34.46,8.29-67.94,11.25-98.18,11.25c-75.45,0-130.73-18.42-130.73-18.42v-34.71c0,0,0.01,0,0.01,0.01
+		c0.01,0.01,0.02,0.01,0.03,0.02c51.73,28.22,131.13,37.46,181.5,40.45c0.15,0.02,0.3,0.03,0.45,0.03c0.01,0,0.02,0,0.02,0
+		c26.87,1.59,45.37,1.39,46.81,1.37H228.913z"/>
+	<path style="fill:#8F0909;" d="M463.653,0v154.5c-78.54,97.74-171.21,121.76-234.74,124.82h-0.09c-17.77,0.85-33.26,0.06-45.52-1.2
+		c-0.05-0.01-0.09-0.01-0.13-0.02c-0.55-0.06-1.1-0.11-1.63-0.18c-16.2-1.78-26.36-4.35-28.13-4.82c-0.19-0.04-0.28-0.07-0.28-0.07
+		c0.2,0,0.41,0.01,0.61,0.01c18.2,0.4,35.38-0.64,51.6-2.92C417.043,240.4,463.653,0,463.653,0z"/>
+</g>
+</svg>
