@@ -14,7 +14,35 @@
 
     </head>
     <body class="antialiased bg-grey" onload="guestOnLoad();" onresize="guestOnResize();">
-        <div class="flex-column container">
+
+        <nav class="z-index-5" id="main-menu" role="navigation">
+            <a href={{URL('/')}} class="full-width align-in-center">
+                <img class="mb-10" src="{{asset('images/logo.png')}}" alt="profile photo" width="150">
+            </a>
+            <h2 class="font-size-20 font-weight-400 text-white text-center">Pet's Claws & Fins</h2>
+            <p class="font-size-12 font-weight-300 text-white text-center mb-20">Ecological Seafood Production</p>
+            <div class="full-width justify-center">
+                <a href="#"><img class="social-icon" src="{{asset('svg/twitter-square.svg')}}" alt="twitter"></a>
+                <a href="#"><img class="social-icon" src="{{asset('svg/facebook-square.svg')}}" alt="twitter"></a>
+                <a href="#"><img class="social-icon" src="{{asset('svg/instagram-square.svg')}}" alt="twitter"></a>
+                <a href="#"><img class="social-icon" src="{{asset('svg/pinterest-square.svg')}}" alt="twitter"></a>
+            </div>
+            <hr>
+            <ul>
+                <li><a href="#">Soft-shelled mudcrabs</a></li>
+                <li><a href="#">Hard-shelled mudcrabs</a></li>
+                <li><a href="#">Information</a></li>
+                <li><a href="#">Where to buy</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="{{ route('register') }}">Become distributor</a></li>
+                <li><a href="{{ route('login') }}">Log In</a></li>
+            </ul>
+        </nav>
+        <div class="menu-button-container z-index-5">
+            <button id="menu-toggle">Open</button>
+        </div>
+
+        <div class="flex-column container page-wrap">
             <header class="full-width text-white flex justify-between relative">
                 <div id="placeholder1"></div>
                 <div id="headerSvg" class="_50-width z-index-2 absolute top-left">

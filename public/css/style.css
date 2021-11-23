@@ -114,3 +114,120 @@ main {
     justify-content: flex-start;
     align-items: center;
 }
+
+
+/* PUSH MENU */
+
+#main-menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    padding: 50px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    text-align: left;
+    background-color: var(--grey-menu);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #3e4145;
+    margin: 20px 0px;
+}
+
+#main-menu ul {
+    list-style: none;
+}
+
+#main-menu ul li a {
+    display: block;
+    font-weight: 400;
+    line-height: 35px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 0.9em;
+    /* border-top: 1px solid #eee; */
+}
+
+#main-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+body.open #main-menu {
+    left: 0;
+}
+
+
+/* MAIN PAGE */
+
+.page-wrap {
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+body.open .page-wrap {
+    max-width: 100% !important;
+    transform: translateX(250px);
+}
+
+
+/* MENU TOGGLE ICON */
+
+.menu-button-container {
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+body.open .menu-button-container {
+    margin-left: 250px;
+}
+
+button:focus {
+    outline: none;
+}
+
+#menu-toggle {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.social-icon {
+    width: 24px;
+    margin: 0px 6px;
+}
+
+.social-icon:hover {
+    filter: brightness(130%);
+}

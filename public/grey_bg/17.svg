@@ -1,16 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 463.65 600" style="enable-background:new 0 0 463.65 600;" xml:space="preserve">
+	 viewBox="0 0 463.65 1622.786" style="enable-background:new 0 0 463.65 1622.786;" xml:space="preserve">
 <g>
 	<defs>
-		<path id="SVGID_1_" d="M463.65,0v600h-46.18c-55.8,0-155.56-6.27-262.16-42.93C51.12,526.93,1.16,480.9,0.02,479.84
-			c-0.01-0.01-0.01-0.02-0.02-0.02V0H463.65z"/>
+		<path id="XMLID_00000021817045460598491580000001872906260076217484_" d="M463.65,0v1622.786h-46.18
+			c-55.8,0-155.56-6.27-262.16-42.93c-104.19-30.14-154.15-76.17-155.29-77.23c-0.01-0.01-0.01-0.02-0.02-0.02V0H463.65z"/>
 	</defs>
-	<clipPath id="SVGID_00000083799079635304562470000007028954717804174475_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	<clipPath id="XMLID_00000042714262554375770500000003435181368658248597_">
+		<use xlink:href="#XMLID_00000021817045460598491580000001872906260076217484_"  style="overflow:visible;"/>
 	</clipPath>
-	<g style="clip-path:url(#SVGID_00000083799079635304562470000007028954717804174475_);">
+	
+		<g transform="matrix(1 0 0 1 -3.051758e-05 -1.220703e-04)" style="clip-path:url(#XMLID_00000042714262554375770500000003435181368658248597_);">
 		
-			<image style="overflow:visible;" width="929" height="1201" xlink:href="E0578945582141A5.jpg"  transform="matrix(0.5 0 0 0.5 -0.425 -0.25)">
+			<image style="overflow:visible;" width="601" height="2065" xlink:href="../images/grey1.jpg"  transform="matrix(-0.7872 0 0 -0.7872 468.3852 1625.6125)">
 		</image>
 	</g>
 </g>
