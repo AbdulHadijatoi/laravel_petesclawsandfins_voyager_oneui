@@ -3,15 +3,12 @@
 @section('title', 'Welcome Candidate')
 
 @section('main-menu-items')
-<ul>
     <li><a href="#">Soft-shelled mudcrabs</a></li>
     <li><a href="#">Hard-shelled mudcrabs</a></li>
     <li><a href="#">Information</a></li>
     <li><a href="#">Where to buy</a></li>
     <li><a href="#">Contact Us</a></li>
-    <li><a href="{{ route('register') }}">Become distributor</a></li>
-    <li><a href="{{ route('login') }}">Log In</a></li>
-</ul>
+    <li><a href="{{ route('profile.show') }}">Settings</a></li>
 @endsection
         
 @section('content')
@@ -75,8 +72,6 @@
         <img id="arc1" src="{{asset('arch/10.svg')}}">
     </div>
 </section>
-@endsection
-
 
 <script> 
     function onLoad() {
@@ -99,4 +94,11 @@
         setMarginTop(getHeight(getElem('arc1')) / 1.7, 'section2');
         setMarginTop(getHeight(getElem('arc2')) / 1.2, 'lastSection');
     }
+
+    function setGreyBackground(containerIndex, frameIndex, textureImage) {
+        frameIndex -= 1;
+        greyContainer[containerIndex].innerHTML = bg_frame[frameIndex].replace("_GREY_SHADE_IMAGE_HERE_", "../images/" + textureImage);
+    }
 </script>
+@endsection
+

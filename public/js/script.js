@@ -82,11 +82,6 @@ function setMarginTop(height, targetMargin) {
         tm.style.marginTop = '-' + height + 'px';
 }
 
-function setGreyBackground(containerIndex, frameIndex, textureImage) {
-    frameIndex -= 1;
-    greyContainer[containerIndex].innerHTML = bg_frame[frameIndex].replace("_GREY_SHADE_IMAGE_HERE_", "images/" + textureImage);
-}
-
 // SIDEBAR MENU SCRIPT
 //Exelent little functions to use any time when class modification is needed
 function hasClass(ele, cls) {
@@ -144,7 +139,6 @@ if (getElem('menu-toggle') != null) {
 
 var slider__nav = document.querySelectorAll('.slider__nav');
 var count = 0;
-console.log(slider__nav.length);
 
 function nextSlide() {
     if (count >= slider__nav.length - 1)

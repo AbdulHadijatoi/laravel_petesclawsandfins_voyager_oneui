@@ -3,12 +3,10 @@
 @section('title', 'Welcome Guest')
 
 @section('main-menu-items')
-<ul>
     <li><a href="#" onclick="show_flex('popup-slider')">Frozen - Whole</a></li>
     <li><a href="#" onclick="show_flex('popup-slider')">Frozen - Cleaned</a></li>
     <li><a href="#" onclick="show_flex('popup-slider')">Alive</a></li>
     <li><a href="#" onclick="show_flex('popup-slider')">Frozen - Deep Fried</a></li>
-</ul>
 @endsection
 
 @section('content')

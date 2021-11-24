@@ -71,7 +71,16 @@
                 <a href="#"><img class="social-icon" src="{{asset('svg/pinterest-square.svg')}}" alt="twitter"></a>
             </div>
             <hr>
-            @yield('main-menu-items');
+            <ul>
+                @yield('main-menu-items')
+                @auth
+                    <!-- Authentication -->
+                    <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+                        <li><a href="{{ route('logout') }}" onclick="event.preventDefault(); this.closest('form').submit();">Log out</a></li>
+                    </form>
+                @endauth
+            </ul>
         </nav>
         <div class="menu-button-container z-index-5">
             <button id="menu-toggle">Open</button>

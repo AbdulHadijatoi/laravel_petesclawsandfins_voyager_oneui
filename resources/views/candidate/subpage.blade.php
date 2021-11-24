@@ -3,7 +3,6 @@
 @section('title', 'Welcome Partner')
 
 @section('main-menu-items')
-<ul>
     <li><a href="#">Soft-shelled mudcrabs</a></li>
     <li><a href="#">Hard-shelled mudcrabs</a></li>
     <li><a href="#">Information</a></li>
@@ -15,8 +14,6 @@
     <li><a href="#">Available Supply & Auction</a></li>
     <li><a href="#">Gallery</a></li>
     <li><a href="#">Setting</a></li>
-    <li><a href="{{ route('login') }}">Log out</a></li>
-</ul>
 @endsection
         
 @section('content')
