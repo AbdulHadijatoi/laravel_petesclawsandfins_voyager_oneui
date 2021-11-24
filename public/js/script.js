@@ -83,29 +83,8 @@ function setMarginTop(height, targetMargin) {
 }
 
 function setGreyBackground(containerIndex, frameIndex, textureImage) {
+    frameIndex -= 1;
     greyContainer[containerIndex].innerHTML = bg_frame[frameIndex].replace("_GREY_SHADE_IMAGE_HERE_", "images/" + textureImage);
-}
-
-// GUEST WELCOME 
-function guestOnLoad() {
-    setGreyBackground(2, 7, 'grey1.jpg');
-    setGreyBackground(1, 8, 'grey12.jpg');
-    setGreyBackground(0, 19, 'grey17.jpg');
-    setHeight('headerSvg', 'placeholder1');
-    makeSquare();
-    setMarginBottom('lastSection');
-    setMarginTop(getHeight(getElem('headerArc')) / 1.7, 'mainContainer');
-    setMarginTop(getHeight(getElem('arc1')) / 1.7, 'section2');
-    setMarginTop(getHeight(getElem('arc2')) / 1.2, 'lastSection');
-}
-
-function guestOnResize() {
-    setMarginBottom('lastSection');
-    setHeight('headerSvg', 'placeholder1');
-    makeSquare();
-    setMarginTop(getHeight(getElem('headerArc')) / 1.7, 'mainContainer');
-    setMarginTop(getHeight(getElem('arc1')) / 1.7, 'section2');
-    setMarginTop(getHeight(getElem('arc2')) / 1.2, 'lastSection');
 }
 
 // SIDEBAR MENU SCRIPT
@@ -131,8 +110,6 @@ function init() {
         getElem("menu-toggle").addEventListener("click", toggleMenu);
 }
 
-
-
 //The actual fuction
 function toggleMenu() {
     var ele = document.getElementsByTagName('body')[0];
@@ -153,8 +130,6 @@ function toggleMenu() {
     }
 }
 
-
-
 //Prevent the function to run before the document is loaded
 document.addEventListener('readystatechange', function() {
     if (document.readyState === "complete") {
@@ -165,4 +140,32 @@ document.addEventListener('readystatechange', function() {
 if (getElem('menu-toggle') != null) {
     var menuToggle = getElem('menu-toggle').innerHTML.split("").join("<br/>")
     getElem('menu-toggle').innerHTML = menuToggle;
+}
+
+var slider__nav = document.querySelectorAll('.slider__nav');
+var count = 0;
+console.log(slider__nav.length);
+
+function nextSlide() {
+    if (count >= slider__nav.length - 1)
+        count = -1;
+    slider__nav[++count].checked = true;
+}
+
+function previousSlide() {
+    if (count <= 0)
+        count = slider__nav.length;
+    slider__nav[--count].checked = true;
+}
+
+function show_flex(elem_id) {
+    getElem(elem_id).style.display = 'flex';
+}
+
+function show_flex(elem_id) {
+    getElem(elem_id).style.display = 'block';
+}
+
+function hide(elem_id) {
+    getElem(elem_id).style.display = 'hide';
 }
