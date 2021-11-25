@@ -4,7 +4,7 @@
 
 @section('main-menu-items')
 <ul>
-    <li><a href="#">Soft-shelled mudcrabs</a></li>
+    <li><a href="{{url('candidate/second_level')}}">Soft-shelled mudcrabs</a></li>
     <li><a href="#">Hard-shelled mudcrabs</a></li>
     <li><a href="#">Information</a></li>
     <li><a href="#">Where to buy</a></li>

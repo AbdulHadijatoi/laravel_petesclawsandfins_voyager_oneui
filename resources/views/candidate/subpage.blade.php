@@ -47,4 +47,9 @@
         makeSquare();
         setMarginTop(getHeight(getElem('headerArc')) / 1.7, 'lastSection');
     }
+
+    function setGreyBackground(containerIndex, frameIndex, textureImage) {
+        frameIndex -= 1;
+        greyContainer[containerIndex].innerHTML = bg_frame[frameIndex].replace("_GREY_SHADE_IMAGE_HERE_", "../images/" + textureImage);
+    }
 </script>

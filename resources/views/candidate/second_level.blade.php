@@ -159,5 +159,8 @@
         getElem('sec3-content').style.marginTop = getHeight(getElem('arc3'))/2;
     }
 
-    
+    function setGreyBackground(containerIndex, frameIndex, textureImage) {
+        frameIndex -= 1;
+        greyContainer[containerIndex].innerHTML = bg_frame[frameIndex].replace("_GREY_SHADE_IMAGE_HERE_", "../images/" + textureImage);
+    }
 </script>

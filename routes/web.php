@@ -41,6 +41,9 @@ Route::get('/terms', function () {
 Route::get('/policy', function () {
     return view('policy');
 });
+Route::get('/candidate/second_level', function () {
+    return view('candidate/second_level');
+});
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
