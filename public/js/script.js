@@ -110,14 +110,16 @@ function toggleMenu() {
     var ele = document.getElementsByTagName('body')[0];
     if (!hasClass(ele, "open")) {
         addClass(ele, "open");
-        getElem('menu-toggle').innerHTML = 'Close Menu';
+        // onopen change menu name to 'MENU'
+        getElem('menu-toggle').innerHTML = 'MENU';
         if (getElem('menu-toggle') != null) {
             var menuToggle = getElem('menu-toggle').innerHTML.split("").join("<br/>")
             getElem('menu-toggle').innerHTML = menuToggle;
         }
     } else {
         removeClass(ele, "open");
-        getElem('menu-toggle').innerHTML = 'Open';
+        // onclose change menu name to 'MENU'
+        getElem('menu-toggle').innerHTML = 'MENU';
         if (getElem('menu-toggle') != null) {
             var menuToggle = getElem('menu-toggle').innerHTML.split("").join("<br/>")
             getElem('menu-toggle').innerHTML = menuToggle;

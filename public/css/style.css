@@ -122,9 +122,11 @@ main {
 /* PUSH MENU */
 
 #main-menu {
-    position: fixed;
-    top: 0;
-    left: -250px;
+    /* border: 1px solid indianred; */
+    /* left: -250px; */
+    transform: translateX(-250px);
+    position: sticky;
+    top: 0px;
     width: 250px;
     height: 100%;
     padding: 50px 20px 0px 20px;
@@ -139,6 +141,8 @@ main {
     display: flex;
     flex-direction: column;
     background-color: var(--grey-menu);
+    /* z-index: 99999; */
+    opacity: 0;
 }
 
 hr {
@@ -186,8 +190,20 @@ hr {
     text-decoration: underline;
 }
 
+.main-menu-container {
+    position: relative;
+    z-index: 999999;
+    height: 100vh;
+}
+
+body.open .main-menu-container {
+    width: 250px;
+    /* background: indianred; */
+}
+
 body.open #main-menu {
-    left: 0;
+    transform: translateX(0px);
+    opacity: 1;
 }
 
 
@@ -198,24 +214,25 @@ body.open #main-menu {
     -moz-transition: all .3s ease-in;
     -o-transition: all .3s ease-in;
     transition: all .3s ease-in;
+    position: relative;
 }
 
 body.open .page-wrap {
-    max-width: 100% !important;
-    transform: translateX(250px);
+    max-width: 1280px !important;
+    /* transform: translateX(125px); */
 }
 
 
 /* MENU TOGGLE ICON */
 
 .menu-button-container {
-    position: fixed;
+    position: absolute;
     top: 70px;
     left: 0px;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -o-transition: all .4s ease;
-    transition: all .4s ease;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
 }
 
 body.open .menu-button-container {
