@@ -64,6 +64,14 @@ function getHeight(elem) {
     }
 }
 
+function getLeft(elem) {
+    if (elem != null) {
+        var rect = elem.getBoundingClientRect();
+        return rect.left;
+    }
+}
+
+
 
 function setHeight(src_id, target_id) {
     getElem(target_id).style.height = document.getElementById(src_id).clientWidth + 'px'
@@ -117,6 +125,19 @@ function toggleMenu() {
             getElem('menu-toggle').innerHTML = menuToggle;
         }
     } else {
+        removeClass(ele, "open");
+        // onclose change menu name to 'MENU'
+        getElem('menu-toggle').innerHTML = 'MENU';
+        if (getElem('menu-toggle') != null) {
+            var menuToggle = getElem('menu-toggle').innerHTML.split("").join("<br/>")
+            getElem('menu-toggle').innerHTML = menuToggle;
+        }
+    }
+}
+
+function closeMenu() {
+    var ele = document.getElementsByTagName('body')[0];
+    if (hasClass(ele, "open")) {
         removeClass(ele, "open");
         // onclose change menu name to 'MENU'
         getElem('menu-toggle').innerHTML = 'MENU';

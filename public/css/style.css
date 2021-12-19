@@ -191,7 +191,7 @@ hr {
 }
 
 .main-menu-container {
-    position: relative;
+    /* position: relative; */
     z-index: 999999;
     height: 100vh;
 }

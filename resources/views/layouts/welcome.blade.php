@@ -12,7 +12,7 @@
     </head>
     <body class="antialiased bg-grey" onload="onLoad();" onresize="onResize();" style="background-image: url('{{asset("images/body_bg.jpg")}}')">
 
-        <div id="popup-slider" class="full-width full-height fixed top-0 display-none" style="background-color: rgba(0,0,0,0.9);">
+        <div  onclick="closeMenu();" id="popup-slider" class="full-width full-height fixed top-0 display-none" style="background-color: rgba(0,0,0,0.9);">
             <span onclick="getElem('popup-slider').style.display = 'none';" class="btn-close-slider">+</span>
             <div class="slider">
                 <div class="slider_buttons">
@@ -58,8 +58,12 @@
               </div>
         </div>
 
-        <div class="justify-start max-w1530 relative margin-auto overflow-hidden">
-            <div class="main-menu-container w0">
+        {{-- <div class="justify-start max-w1530 relative margin-auto overflow-hidden"> --}}
+        <div class="justify-start max-w1530 margin-auto overflow-hidden">
+            {{-- <div class="menu-button-container z-index-5 sticky">
+                <button id="menu-toggle">MENU</button>
+            </div> --}}
+            <div id="mainMenuContainer" class="main-menu-container full-height w0 fixed">
                 <nav id="main-menu" role="navigation">
                     <a href={{URL('/')}} class="full-width align-in-center">
                         <img class="mb-10" src="{{asset('images/logo.png')}}" alt="profile photo" width="150">
@@ -88,9 +92,8 @@
                     <button id="menu-toggle">MENU</button>
                 </div>
             </div>
-            
 
-            <div class="flex-column container page-wrap relative float-right">
+            <div onclick="closeMenu();" class="flex-column container page-wrap relative float-right">
                 <header class="full-width text-white flex justify-between relative">
                     <div id="placeholder1"></div>
                     <div id="headerSvg" class="_50-width z-index-2 absolute top-left">
