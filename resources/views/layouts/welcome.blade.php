@@ -8,55 +8,65 @@
 
         <link rel="stylesheet" href="{{ asset('css/common.css') }}">
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/flickity.css') }}">
 
     </head>
     <body class="antialiased bg-grey" onload="onLoad();" onresize="onResize();" style="background-image: url('{{asset("images/body_bg.jpg")}}')">
 
-        <div  onclick="closeMenu();" id="popup-slider" class="full-width full-height fixed top-0 display-none" style="background-color: rgba(0,0,0,0.9);">
-            <span onclick="getElem('popup-slider').style.display = 'none';" class="btn-close-slider">+</span>
-            <div class="slider">
-                <div class="slider_buttons">
-                  <button onclick="previousSlide();">Previous</button>
-                  <button onclick="nextSlide();">Next</button>
+        <div onclick="closeMenu();" id="popup-slider" class="full-width fixed top-0 hidden" style="background-color: rgba(0,0,0,0.9);">
+        {{-- <div  onclick="closeMenu();" id="popup-slider" class="full-width fixed top-0" style="background-color: rgba(0,0,0,0.9);"> --}}
+            <span onclick="makeHidden('popup-slider');" class="btn-close-slider">+</span>
+           
+            <div class="f_slider full-height js-flickity">
+                <div class="f_slider-cell">
+                    <div class="slider__contents">
+                        <img class="slider__image" src="{{asset('images/image_1.jpg')}}"/>
+                        <div class="slide-info absolute bottom-0">
+                          <h2 class="slider__caption">codepen</h2>
+                          <p class="slider__txt">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!
+                          </p>
+                        </div>
+                      </div>
                 </div>
-                <input type="radio" name="slider" checked="checked" class="slider__nav"/>
-                <input type="radio" name="slider" class="slider__nav"/>
-                <input type="radio" name="slider" class="slider__nav"/>
-                <input type="radio" name="slider" class="slider__nav"/>
-                <div class="slider__inner">
-                  <div class="slider__contents">
-                    <div class="slider__image" style="background-image: url('{{asset('images/image_1.jpg')}}')"></div>
-                    <div class="slide-info">
-                      <h2 class="slider__caption">codepen</h2>
-                      <p class="slider__txt">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!
-                      </p>
-                    </div>
-                  </div>
-                  <div class="slider__contents">
-                    <div class="slider__image" style="background-image: url('{{asset('images/image_2.jpg')}}')"></div>
-                    <h2 class="slider__caption">newspaper-o</h2>
-                    <p class="slider__txt">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!
-                    </p>
-                  </div>
-                  <div class="slider__contents">
-                    <div class="slider__image" style="background-image: url('{{asset('images/image_3.jpg')}}')"></div>
-                    <h2 class="slider__caption">television</h2>
-                    <p class="slider__txt">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!
-                    </p>
-                  </div>
-                  <div class="slider__contents">
-                    <div class="slider__image" style="background-image: url('{{asset('images/image_4.jpg')}}')"></div>
-                    <h2 class="slider__caption">diamond</h2>
-                    <p class="slider__txt">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!
-                    </p>
-                  </div>
+                <div class="f_slider-cell">
+                    <div class="slider__contents">
+                        <img class="slider__image" src="{{asset('images/image_2.jpg')}}"/>
+                        <div class="slide-info absolute bottom-0">
+                            <h2 class="slider__caption">newspaper-o</h2>
+                            <p class="slider__txt">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!
+                            </p>
+                        </div>
+                      </div>
                 </div>
-              </div>
+                <div class="f_slider-cell">
+                    <div class="slider__contents">
+                        <img class="slider__image" src="{{asset('images/image_3.jpg')}}"/>
+                        <div class="slide-info absolute bottom-0">
+                            <h2 class="slider__caption">television</h2>
+                            <p class="slider__txt">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!
+                            </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="f_slider-cell">
+                    <div class="slider__contents">
+                        <img class="slider__image" src="{{asset('images/image_4.jpg')}}"/>
+                        <div class="slide-info absolute bottom-0">
+                            <h2 class="slider__caption">diamond</h2>
+                            <p class="slider__txt">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!
+                            </p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
         </div>
+        
+        
 
         {{-- <div class="justify-start max-w1530 relative margin-auto overflow-hidden"> --}}
         <div class="justify-start max-w1530 margin-auto overflow-hidden">
@@ -65,7 +75,7 @@
             </div> --}}
             <div id="mainMenuContainer" class="main-menu-container full-height w0 fixed">
                 <nav id="main-menu" role="navigation">
-                    <a href={{URL('/')}} class="full-width align-in-center">
+                    <a href="{{URL('/')}}" class="full-width align-in-center">
                         <img class="mb-10" src="{{asset('images/logo.png')}}" alt="profile photo" width="150">
                     </a>
                     <h2 class="font-size-20 font-weight-400 text-white text-center">Pet's Claws & Fins</h2>
@@ -353,5 +363,6 @@
             <div>
         </div>
         <script src="{{asset('js/script.js')}}"></script>
+        <script src="{{asset('js/flickity.js')}}"></script>
     </body>
 </html>

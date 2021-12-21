@@ -3,10 +3,11 @@
 @section('title', 'Welcome Guest')
 
 @section('main-menu-items')
-    <li><a href="#" onclick="show_flex('popup-slider')">Frozen - Whole</a></li>
-    <li><a href="#" onclick="show_flex('popup-slider')">Frozen - Cleaned</a></li>
-    <li><a href="#" onclick="show_flex('popup-slider')">Alive</a></li>
-    <li><a href="#" onclick="show_flex('popup-slider')">Frozen - Deep Fried</a></li>
+    <li><a href="{{URL('/')}}">Home</a></li>
+    <li><a href="#" onclick="makeVisible('popup-slider')">Frozen - Whole</a></li>
+    <li><a href="#" onclick="makeVisible('popup-slider')">Frozen - Cleaned</a></li>
+    <li><a href="#" onclick="makeVisible('popup-slider')">Alive</a></li>
+    <li><a href="#" onclick="makeVisible('popup-slider')">Frozen - Deep Fried</a></li>
 @endsection
 
 @section('content')
@@ -64,7 +65,8 @@
     <div id="sec3-content" class="_70-width flex-column z-index-1 justify-center sm_90-width sm_align-center sm_mt-10">
         <h1 class="h1 text-yellow sm_full-width sm_font-size-35 uppercase sm_text-center">Nutrition</h1>
         <div class="full-width justify-between sm_align-center sm_justify-center mt-20">
-            <div class="w500 p-10 sm_w250 sm_mt_150">
+            {{-- THESE ARE CAUSING RESPONSIVENESS ERROR --}}
+            {{-- <div class="w500 p-10 sm_w250 sm_mt_150">
                 <img class="full-width circle border-15-orange sm_border-10 shadow_1" src="{{asset('images/image_2.jpg')}}">
             </div>
             <div class="w700 p-10 sm_w350 _mt_80 sm_mt_10">
@@ -72,7 +74,7 @@
             </div>
             <div class="w500 p-10 sm_w250 _mt_200 sm_mt_240">
                 <img class="full-width circle border-15-orange sm_border-10 shadow_1" src="{{asset('images/image_2.jpg')}}">
-            </div>
+            </div> --}}
         </div>
     </div>
     <div class="arc_bg">

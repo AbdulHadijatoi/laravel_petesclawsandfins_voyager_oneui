@@ -160,29 +160,44 @@ if (getElem('menu-toggle') != null) {
     getElem('menu-toggle').innerHTML = menuToggle;
 }
 
-var slider__nav = document.querySelectorAll('.slider__nav');
-var count = 0;
+// var slider__nav = document.querySelectorAll('.slider__nav');
+// var count = 0;
 
-function nextSlide() {
-    if (count >= slider__nav.length - 1)
-        count = -1;
-    slider__nav[++count].checked = true;
-}
+// function nextSlide() {
+//     if (count >= slider__nav.length - 1)
+//         count = -1;
+//     slider__nav[++count].checked = true;
+// }
 
-function previousSlide() {
-    if (count <= 0)
-        count = slider__nav.length;
-    slider__nav[--count].checked = true;
-}
-
-function show_flex(elem_id) {
-    getElem(elem_id).style.display = 'flex';
-}
+// function previousSlide() {
+//     if (count <= 0)
+//         count = slider__nav.length;
+//     slider__nav[--count].checked = true;
+// }
 
 function show_flex(elem_id) {
-    getElem(elem_id).style.display = 'block';
+    if (getElem(elem_id) != null)
+        getElem(elem_id).style.display = 'flex';
+}
+
+function show_block(elem_id) {
+    if (getElem(elem_id) != null)
+        getElem(elem_id).style.display = 'block';
+}
+
+function makeVisible(elem_id) {
+    if (getElem(elem_id) != null)
+        getElem(elem_id).style.visibility = 'visible';
+}
+
+
+function makeHidden(elem_id) {
+    console.log(getElem(elem_id).style.visibility);
+    if (getElem(elem_id) != null)
+        getElem(elem_id).style.visibility = 'hidden';
 }
 
 function hide(elem_id) {
-    getElem(elem_id).style.display = 'hide';
+    if (getElem(elem_id) != null)
+        getElem(elem_id).style.display = 'hide';
 }
