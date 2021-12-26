@@ -175,29 +175,29 @@ if (getElem('menu-toggle') != null) {
 //     slider__nav[--count].checked = true;
 // }
 
-function show_flex(elem_id) {
+function displayFlex(elem_id) {
     if (getElem(elem_id) != null)
         getElem(elem_id).style.display = 'flex';
 }
 
-function show_block(elem_id) {
+function displayBlock(elem_id) {
     if (getElem(elem_id) != null)
         getElem(elem_id).style.display = 'block';
 }
 
-function makeVisible(elem_id) {
+function visibilityVisible(elem_id) {
     if (getElem(elem_id) != null)
         getElem(elem_id).style.visibility = 'visible';
 }
 
 
-function makeHidden(elem_id) {
+function visibilityHidden(elem_id) {
     console.log(getElem(elem_id).style.visibility);
     if (getElem(elem_id) != null)
         getElem(elem_id).style.visibility = 'hidden';
 }
 
-function hide(elem_id) {
+function displayNone(elem_id) {
     if (getElem(elem_id) != null)
-        getElem(elem_id).style.display = 'hide';
+        getElem(elem_id).style.display = 'none';
 }

@@ -35,6 +35,7 @@ Route::get('/', function () {
         return redirect()->intended($home);
     }
 });
+
 Route::get('/terms', function () {
     return view('terms');
 });
@@ -43,6 +44,30 @@ Route::get('/policy', function () {
 });
 Route::get('/candidate/second_level', function () {
     return view('candidate/second_level');
+});
+Route::get('/pages/p1_t1', function () {
+    return view('pages/p1_t1');
+});
+Route::get('/pages/p2_t1', function () {
+    return view('pages/p2_t1');
+});
+Route::get('/pages/p3_t1', function () {
+    return view('pages/p3_t1');
+});
+Route::get('/pages/p4_t1', function () {
+    return view('pages/p4_t1');
+});
+Route::get('/pages/p5_t1', function () {
+    return view('pages/p5_t1');
+});
+Route::get('/pages/p6_t1', function () {
+    return view('pages/p6_t1');
+});
+Route::get('/pages/s1_p1_t1', function () {
+    return view('pages/s1_p1_t1');
+});
+Route::get('/pages/second_level', function () {
+    return view('pages/second_level');
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

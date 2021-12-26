@@ -19,9 +19,9 @@
 @section('content')
 <section id="lastSection" class="full-width h1200 align-in-center sm_h1000">
     <div class="_75-width flex-column z-index-1 justify-center sm_90-width sm_align-center _mt_100 sm_mt_60">
-        <h1 class="h1 _50-width sm_full-width text-yellow sm_font-size-30 sm_text-center">LOCAL COMMUNITY ENGAGEMENT</h1>
+        <h1 class="h1 _50-width sm_full-width text-yellow sm_font-size-30 sm_text-center">{{$heading1 ?? 'Heading'}}</h1>
         <p class="para sm_font-size-11 sm_text-center">
-            It is in our core believe that if you benefit the local community, the people there will add value to your business as well. For every site we establish a manufacturing facility, our project will add value to the community as whole. We will provide jobs for hundreds of local residents with positions available within our production, sales, administration, and management teams. We will also offer hundreds of local farmers opportunities to join our supply network, providing training, coaching, and financial support to help them adapt to a more intensive and efficient farming system. Through our research and development, anything learned or discovered will be shared with our farmers to produce more efficiently and a healthier product. One among many different local benefitting activities, is that we will arrange cleanup days where we offer students an extra income for their effort as well as courses in environment know-how and teach them the importance of keeping the environment healthy.
+            {{$description1 ?? 'description'}}
         </p>
     </div>
     <div class="arc_bg">

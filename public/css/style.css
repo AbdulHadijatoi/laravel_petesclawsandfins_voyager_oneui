@@ -252,6 +252,8 @@ button:focus {
     border: none;
     background: black;
     color: white;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    border-left: none;
     font-size: 16px;
     text-transform: uppercase;
     line-height: 1.2;
@@ -379,7 +381,7 @@ button:focus {
 .slider__image {
     height: 90%;
     max-height: 1300px;
-    max-width: 1500px;
+    /* max-width: 1500px; */
     display: flex;
     background-size: cover;
     background-position: center;
@@ -487,63 +489,36 @@ button:focus {
     }
 }
 
-.f_slider {
-    /* border: 2px solid red; */
-}
-
-.f_slider-cell {
-    /* width: 100%; */
-    height: 100vh;
+.carousel-cell {
     width: 100%;
-    max-width: 1500px;
-    margin-right: 10px;
+    height: 100vh;
+    margin: 0 10px;
+    /* background: #8C8; */
+    border-radius: 5px;
+    border: 0px solid white;
+    /* counter-increment: carousel-cell; */
 }
 
 
-/* big buttons, no circle */
+/* cell number */
 
-.flickity-prev-next-button {
-    width: 100px;
-    height: 100px;
-    background: transparent;
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    /* content: counter(carousel-cell); */
+    /* line-height: 200px; */
+    /* font-size: 80px; */
+    /* color: white; */
 }
 
 
-/* arrow color */
-
-.flickity-prev-next-button .arrow {
-    fill: white;
-}
-
-.flickity-prev-next-button.no-svg {
-    color: white;
-}
-
-.flickity-prev-next-button:hover {
-    background: transparent;
-}
-
-
-/* hide disabled button */
-
-.flickity-prev-next-button:disabled {
-    display: none;
-}
-
-
-/* position dots in f_slider */
-
-.flickity-page-dots {
-    bottom: 0px;
-}
-
-
-/* white circles */
+/* dots are lines */
 
 .flickity-page-dots .dot {
-    width: 12px;
-    height: 12px;
-    opacity: 1;
+    height: 4px;
+    width: 20px;
+    margin: 0;
+    border-radius: 0;
     background: transparent;
     border: 2px solid white;
 }
@@ -553,4 +528,11 @@ button:focus {
 
 .flickity-page-dots .dot.is-selected {
     background: white;
+}
+
+
+/* position dots in carousel */
+
+.flickity-page-dots {
+    bottom: 0px;
 }

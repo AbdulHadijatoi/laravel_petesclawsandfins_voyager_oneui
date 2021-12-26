@@ -89,6 +89,7 @@ body {
 }
 
 .container {
+    width: 100%;
     max-width: 1280px;
     margin: auto;
 }
@@ -2530,6 +2531,10 @@ ul {
 
 .border-none {
     border-style: none;
+}
+
+.border-0 {
+    border: 0px solid white;
 }
 
 .bg-main {
