@@ -1,0 +1,13 @@
+.slider {
+  width: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+/* .slick-slide:nth-child(odd) {
+  background: #efdfda;
+} */
