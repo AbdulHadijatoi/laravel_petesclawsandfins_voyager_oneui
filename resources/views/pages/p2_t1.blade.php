@@ -12,7 +12,7 @@
     <li><a href="#">Information</a></li>
     <li><a href="#">Where to buy</a></li>
     <li><a href="#">Contact Us</a></li>
-    <li><a href="{{ route('profile.show') }}">Settings</a></li>
+    <li><a href="#">Settings</a></li>
 @endsection
         
 @section('content')

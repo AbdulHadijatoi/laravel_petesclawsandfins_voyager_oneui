@@ -14,21 +14,59 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/testURL', function () {
+    return view('investor/welcome');
+});
 Route::get('/', function () {
+    // return Auth::user()->role->name;
     if(!Auth::user()){
-        return view('welcome');
+        return view('unknown/welcome');
     }
     else{
-        if(Auth::user()->role->role == 'candidate'){
-            $home = 'candidate/welcome';
-        }else if(Auth::user()->role->role == 'investor'){
-            $home = 'investor/welcome';
-        }else if(Auth::user()->role->role == 'partner'){
-            $home = 'partner/welcome';
+        if(Auth::user()->role->name == 'candidate'){
+            return view('candidate/welcome');
+        }else if(Auth::user()->role->name == 'investor'){
+            return view('investor/welcome');
+        }else if(Auth::user()->role->name == 'partner'){
+            return view('partner/welcome');
         }else{
-            $home = 'candidate/welcome';
+            return view('unknown/welcome');
         }
-        return redirect()->intended($home);
+    }
+});
+
+Route::get('/second_level', function () {
+    if(!Auth::user()){
+        return view('unknown/second_level');
+    }
+    else{
+        if(Auth::user()->role->name == 'candidate'){
+            return view('candidate/second_level');
+        }else if(Auth::user()->role->name == 'investor'){
+            return view('investor/second_level');
+        }else if(Auth::user()->role->name == 'partner'){
+            return view('partner/second_level');
+        }else{
+            return view('unknown/second_level');
+        }
+    }
+});
+
+Route::get('/subpage', function () {
+    // return Auth::user()->role->name;
+    if(!Auth::user()){
+        return view('unknown/subpage');
+    }
+    else{
+        if(Auth::user()->role->name == 'candidate'){
+            return view('candidate/subpage');
+        }else if(Auth::user()->role->name == 'investor'){
+            return view('investor/subpage');
+        }else if(Auth::user()->role->name == 'partner'){
+            return view('partner/subpage');
+        }else{
+            return view('unknown/subpage');
+        }
     }
 });
 

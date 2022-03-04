@@ -13,7 +13,7 @@
     <li><a href="#">Updates</a></li>
     <li><a href="#">Available Supply & Auction</a></li>
     <li><a href="">Gallery</a></li>
-    <li><a href="{{ route('profile.show') }}">Setting</a></li>
+    <li><a href="#">Setting</a></li>
 @endsection
         
 @section('content')

@@ -76,34 +76,35 @@
     </div>
 </section>
 
-<script> 
-    function onLoad() {
-        setGreyBackground(2, 8, 'grey1.jpg');
-        setGreyBackground(1, 9, 'grey12.jpg');
-        setGreyBackground(0, 20, 'grey17.jpg');
-        setHeight('headerSvg', 'placeholder1');
-        makeSquare();
-        setMarginBottom('lastSection');
-        setMarginTop(getHeight(getElem('headerArc')) / 1.7, 'mainContainer');
-        setMarginTop(getHeight(getElem('arc1')) / 1.7, 'section2');
-        setMarginTop(getHeight(getElem('arc2')) / 1.2, 'lastSection');
-    }
+    @section('js_after')
+        <script> 
+            function onLoad() {
+                setGreyBackground(2, 8, 'grey1.jpg');
+                setGreyBackground(1, 9, 'grey12.jpg');
+                setGreyBackground(0, 20, 'grey17.jpg');
+                setHeight('headerSvg', 'placeholder1');
+                makeSquare();
+                setMarginBottom('lastSection');
+                setMarginTop(getHeight(getElem('headerArc')) / 1.7, 'mainContainer');
+                setMarginTop(getHeight(getElem('arc1')) / 1.7, 'section2');
+                setMarginTop(getHeight(getElem('arc2')) / 1.2, 'lastSection');
+            }
 
-    function onResize() {
-        setMarginBottom('lastSection');
-        setHeight('headerSvg', 'placeholder1');
-        makeSquare();
-        setMarginTop(getHeight(getElem('headerArc')) / 1.7, 'mainContainer');
-        setMarginTop(getHeight(getElem('arc1')) / 1.7, 'section2');
-        setMarginTop(getHeight(getElem('arc2')) / 1.2, 'lastSection');
-    }
+            function onResize() {
+                setMarginBottom('lastSection');
+                setHeight('headerSvg', 'placeholder1');
+                makeSquare();
+                setMarginTop(getHeight(getElem('headerArc')) / 1.7, 'mainContainer');
+                setMarginTop(getHeight(getElem('arc1')) / 1.7, 'section2');
+                setMarginTop(getHeight(getElem('arc2')) / 1.2, 'lastSection');
+            }
 
-    function setGreyBackground(containerIndex, frameIndex, textureImage) {
-        frameIndex -= 1;
-        greyContainer[containerIndex].innerHTML = bg_frame[frameIndex].replace("_GREY_SHADE_IMAGE_HERE_", "images/" + textureImage);
-    }
-</script>
-
+            function setGreyBackground(containerIndex, frameIndex, textureImage) {
+                frameIndex -= 1;
+                greyContainer[containerIndex].innerHTML = bg_frame[frameIndex].replace("_GREY_SHADE_IMAGE_HERE_", "images/" + textureImage);
+            }
+        </script>
+    @endsection
 @endsection
 
 
